@@ -20,7 +20,7 @@ public class Main {
 
 
         for (int i = 0; i<args.length; i++){//
-            int currentValue = Integer.parseInt(args[i]);//gets the value in the args array and converts it from a string to an integer
+            int currentValue = (int) (Float.parseFloat(args[i]));//gets the value in the args array and converts it from a string to an integer
             graphArray[i] = currentValue;//takes the converted value and stores it in the graphArray
         }
 
