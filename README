@@ -1,0 +1,17 @@
+Moses Charles Jr.
+3/31/11
+Chart Project
+
+
+***Description***
+This is a program that Creates a bar graph using arguments that the user provides. The top bar is 20 pixels from the top and each bar is 5 spaces away from the last bar or the top of the screen. 
+
+
+***Usage Instructions***
+Type in numerical arguements. The first two set the size of the box, width/height (respectively) and the next arguments determine the height of each bar.
+
+
+***Examples***
+chartproject.java 200 400 123 24 12 24
+
+This will create a window 200x400 and will create four bars with heights 123, 24, 12, and 24
